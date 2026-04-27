@@ -11,7 +11,7 @@ export default function About() {
               <span className="text-[#fcb900]">Since 2019</span>
             </h1>
             <p className="text-xl text-secondary max-w-xl leading-relaxed">
-              For seven years, Adler Remodeling has been the trusted partner for premium window and door installations across the region, blending architectural precision with unmatched security and energy efficiency.
+              For seven years, Adler Remodeling has been the trusted partner for premium home improvement solutions across the region, blending architectural precision with unmatched security, durability, and energy efficiency.
             </p>
           </div>
           <div className="lg:col-span-5 relative">
@@ -40,10 +40,10 @@ export default function About() {
           <div>
             <h2 className="text-4xl font-headline font-bold tracking-tight mb-8">The Adler Commitment</h2>
             <p className="text-lg text-secondary mb-6 leading-relaxed">
-              We don't just replace windows and doors we secure and elevate your home. Our journey began with a single vision to provide homeowners with a level of transparency and technical skill that was missing in the industry.
+              We don't just upgrade your house—we secure and elevate your home. Our journey began with a single vision to provide homeowners with a level of transparency and technical skill that was missing in the industry.
             </p>
             <p className="text-lg text-secondary mb-10 leading-relaxed">
-              Every specialized door replacement and full scale window upgrade is approached with the same architectural rigor. We treat your home as a sanctuary, ensuring minimal disruption, maximum quality, and perfect climate control.
+              Every roofing installation, HVAC upgrade, and plumbing overhaul is approached with the same architectural rigor. We treat your home as a sanctuary, ensuring minimal disruption, maximum quality, and lasting comfort.
             </p>
             <div className="grid grid-cols-2 gap-8">
               <div>
@@ -84,7 +84,7 @@ export default function About() {
             <div>
               <span className="material-symbols-outlined text-primary text-5xl mb-6" aria-hidden="true">home_health</span>
               <h3 className="text-3xl font-headline font-bold mb-4">Phase 01: In-Home Consultation</h3>
-              <p className="text-secondary text-lg leading-relaxed max-w-xl">We meet at your residence to discuss your vision, evaluate your existing windows, and provide expert recommendations tailored to your budget.</p>
+              <p className="text-secondary text-lg leading-relaxed max-w-xl">We meet at your residence to discuss your vision, evaluate your existing systems, and provide expert recommendations tailored to your budget.</p>
             </div>
             <div className="mt-8 pt-8 border-t border-surface-container-high flex justify-between items-center opacity-0 group-hover:opacity-100 transition-opacity">
               <span className="text-sm font-bold uppercase text-primary">Discover Possibilities</span>
@@ -143,7 +143,7 @@ export default function About() {
           <div>
             <h2 className="text-4xl font-headline font-bold mb-6">Why Choose Adler?</h2>
             <p className="text-lg text-white/80 mb-8">
-              We fuse architectural precision with flawless execution. Our specialized teams install premium windows and doors designed for peak energy efficiency, robust security, and timeless aesthetics. When you choose Adler, you are investing in unquestionable quality and lasting peace of mind.
+              We fuse architectural precision with flawless execution. Our specialized teams deliver premium home improvement solutions designed for peak energy efficiency, robust security, and timeless aesthetics. When you choose Adler, you are investing in unquestionable quality and lasting peace of mind.
             </p>
             <div className="mt-12 space-y-6">
               <div className="flex items-start gap-5 group">
@@ -172,7 +172,7 @@ export default function About() {
                 </div>
                 <div>
                   <h4 className="text-xl font-headline font-bold text-white mb-1">Maximum Security</h4>
-                  <p className="text-white/70 leading-relaxed text-sm">Protect what matters most with reinforced glass panes and impenetrable multi-point locking systems.</p>
+                  <p className="text-white/70 leading-relaxed text-sm">Protect what matters most with impenetrable roofing systems, secure entryways, and flawlessly engineered plumbing.</p>
                 </div>
               </div>
             </div>

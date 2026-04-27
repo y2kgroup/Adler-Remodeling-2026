@@ -10,7 +10,7 @@ export default function Roofing() {
           <img
             alt="Luxury Roofing"
             className="w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&q=80"
+            src="/roofing_hero.png"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-on-surface/60 to-transparent"></div>
         </div>
@@ -47,7 +47,7 @@ export default function Roofing() {
                 <img
                   alt="Architectural Shingles"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  src="https://images.unsplash.com/photo-1548614606-52b4451f994b?auto=format&fit=crop&q=80"
+                  src="/roofing_shingles.png"
                 />
                 <div className="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <p className="text-on-surface text-sm font-medium">Dimensional shingles, high wind resistance, and algae protection.</p>
@@ -62,7 +62,7 @@ export default function Roofing() {
                 <img
                   alt="Clay Tile Roof"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  src="https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&q=80"
+                  src="/roofing_tiles.png"
                 />
                 <div className="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <p className="text-on-surface text-sm font-medium">Exceptional thermal capacity and century-spanning durability.</p>

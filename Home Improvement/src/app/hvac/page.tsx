@@ -10,7 +10,7 @@ export default function HVAC() {
           <img
             alt="Luxury HVAC"
             className="w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1581094288331-6418d1828f72?auto=format&fit=crop&q=80"
+            src="/hvac_hero.png"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-on-surface/60 to-transparent"></div>
         </div>
@@ -47,7 +47,7 @@ export default function HVAC() {
                 <img
                   alt="Modern AC Unit"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  src="https://images.unsplash.com/photo-1621905252472-740b4bcbdceb?auto=format&fit=crop&q=80"
+                  src="/ac_condenser.png"
                 />
                 <div className="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <p className="text-on-surface text-sm font-medium">Smart-thermostat integration, multi-stage cooling, and ultra-quiet fans.</p>
@@ -62,7 +62,7 @@ export default function HVAC() {
                 <img
                   alt="Modern Furnace"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  src="https://images.unsplash.com/photo-1517420879524-86d64ac2f339?auto=format&fit=crop&q=80"
+                  src="/heating_thermostat.png"
                 />
                 <div className="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <p className="text-on-surface text-sm font-medium">Variable speed blowers, precise humidity control, and rapid heating.</p>

@@ -10,11 +10,17 @@ export default function Header() {
   
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Windows", href: "/windows" },
-    { name: "Doors", href: "/doors" },
-    { name: "Roofing", href: "/roofing" },
-    { name: "HVAC", href: "/hvac" },
-    { name: "Plumbing", href: "/plumbing" },
+    { 
+      name: "Services", 
+      href: "/services",
+      subLinks: [
+        { name: "Windows", href: "/windows" },
+        { name: "Doors", href: "/doors" },
+        { name: "Roofing", href: "/roofing" },
+        { name: "HVAC", href: "/hvac" },
+        { name: "Plumbing", href: "/plumbing" },
+      ]
+    },
     { name: "Gallery", href: "/gallery" },
     { name: "About Us", href: "/about" },
   ];
@@ -36,19 +42,39 @@ export default function Header() {
           </Link>
           
           <nav className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                className={
-                  pathname === link.href
-                    ? "text-primary dark:text-primary-container border-b-2 border-primary dark:border-primary-container pb-1 font-headline font-bold tracking-tight"
-                    : "text-zinc-600 dark:text-zinc-400 font-medium font-headline hover:text-primary dark:hover:text-primary-container transition-all"
-                }
-              >
-                {link.name}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = pathname === link.href || (link.subLinks && link.subLinks.some(sub => pathname === sub.href));
+              return (
+                <div key={link.name} className="relative group">
+                  <Link
+                    href={link.href}
+                    className={
+                      isActive
+                        ? "text-primary dark:text-primary-container border-b-2 border-primary dark:border-primary-container pb-1 font-headline font-bold tracking-tight"
+                        : "text-zinc-600 dark:text-zinc-400 font-medium font-headline hover:text-primary dark:hover:text-primary-container transition-all"
+                    }
+                  >
+                    {link.name}
+                    {link.subLinks && <span className="material-symbols-outlined text-[1.2rem] ml-1 align-middle opacity-60">expand_more</span>}
+                  </Link>
+                  {link.subLinks && (
+                    <div className="absolute left-0 top-[120%] w-56 bg-white dark:bg-zinc-900 rounded-xl shadow-[0_10px_40px_-10px_rgba(0,0,0,0.1)] dark:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)] border border-zinc-100 dark:border-zinc-800 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:top-full transition-all duration-300 z-50 overflow-hidden">
+                      <div className="py-2">
+                        {link.subLinks.map(sub => (
+                          <Link 
+                            key={sub.name} 
+                            href={sub.href}
+                            className="block px-5 py-3 text-sm font-headline font-bold text-zinc-600 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-800 hover:text-primary dark:hover:text-primary-container hover:pl-6 transition-all"
+                          >
+                            {sub.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
@@ -83,20 +109,41 @@ export default function Header() {
           isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <nav className="flex flex-col gap-6 text-2xl mt-4">
-          {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              href={link.href}
-              className={
-                pathname === link.href
-                  ? "text-primary dark:text-primary-container font-headline font-bold border-l-4 border-primary pl-4"
-                  : "text-zinc-600 dark:text-zinc-400 font-medium font-headline pl-4"
-              }
-            >
-              {link.name}
-            </Link>
-          ))}
+        <nav className="flex flex-col gap-6 text-2xl mt-4 overflow-y-auto pb-8">
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href || (link.subLinks && link.subLinks.some(sub => pathname === sub.href));
+            return (
+              <div key={link.name} className="flex flex-col">
+                <Link
+                  href={link.href}
+                  className={
+                    isActive
+                      ? "text-primary dark:text-primary-container font-headline font-bold border-l-4 border-primary pl-4"
+                      : "text-zinc-600 dark:text-zinc-400 font-medium font-headline pl-4"
+                  }
+                >
+                  {link.name}
+                </Link>
+                {link.subLinks && (
+                  <div className="flex flex-col gap-5 mt-5 ml-8 border-l-2 border-zinc-100 dark:border-zinc-800 pl-6">
+                    {link.subLinks.map((sub) => (
+                      <Link
+                        key={sub.name}
+                        href={sub.href}
+                        className={
+                          pathname === sub.href
+                            ? "text-lg text-primary font-bold font-headline"
+                            : "text-lg text-zinc-500 dark:text-zinc-400 font-medium font-headline hover:text-primary transition-colors"
+                        }
+                      >
+                        {sub.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </nav>
         
         <div className="mt-12 flex flex-col gap-6">

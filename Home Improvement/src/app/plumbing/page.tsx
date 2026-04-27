@@ -10,7 +10,7 @@ export default function Plumbing() {
           <img
             alt="Luxury Plumbing"
             className="w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
+            src="/plumbing_hero.png"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-on-surface/60 to-transparent"></div>
         </div>
@@ -47,7 +47,7 @@ export default function Plumbing() {
                 <img
                   alt="Modern Sink Fixture"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80"
+                  src="/plumbing_fixtures.png"
                 />
                 <div className="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <p className="text-on-surface text-sm font-medium">Touchless technology, water-saving aerators, and premium finishes.</p>
@@ -62,7 +62,7 @@ export default function Plumbing() {
                 <img
                   alt="Clean Copper Pipes"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  src="https://images.unsplash.com/photo-1505798577917-a65157d3320a?auto=format&fit=crop&q=80"
+                  src="/plumbing_repiping.png"
                 />
                 <div className="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <p className="text-on-surface text-sm font-medium">PEX integration, superior pressure control, and zero leaks.</p>

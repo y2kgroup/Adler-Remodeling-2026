@@ -2,39 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
+import HeroSlider from "@/components/HeroSlider";
 
 export default function Home() {
   return (
     <>
       {/* Hero Section */}
       <section className="relative min-h-[921px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img
-            alt="Modern Luxury Home"
-            className="w-full h-full object-cover"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP2uyh2eD4Gc-JIcxZeuSoVwK10pEzmcnX0VmwTcOvjihsZaTg_Zs-9MB4BDEVvPWAGB37w-G8XLRjqSeuRKQRWNL5URBi6h6EX9lwk1CTU5mK1o4kER4Qj1Dbv8uMY_P1679qKLrgdxGW3aVk8aw2EcCY6k4t-EPywN3xKZSL68Bfne5wysnzSfuQIJb6hKdFaJ0hoouddNLDABoJIMPxpSMCKGt4W0x7DNgVfzj5Mp63blS89QqUeQSIpNSiY4ZGQRdCMnrTJAY"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/40 to-transparent"></div>
-        </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-8 w-full">
-          <div className="max-w-2xl">
-            <span className="inline-block text-primary font-headline font-bold tracking-widest text-xs uppercase mb-4 tracking-[0.2em]">
-              Crafting Excellence
-            </span>
-            <h1 className="text-6xl md:text-7xl font-headline font-extrabold text-on-surface leading-[1.1] tracking-tighter mb-6">
-              Let the <span className="text-[#fcb900] bg-on-surface px-4 py-1 italic">Sunshine</span> In.
-            </h1>
-            <p className="text-xl text-secondary font-body leading-relaxed mb-10 max-w-xl">
-              Upgrade your home with durable, stylish, and highly insulated windows and doors. Save on energy bills while enhancing your home's curb appeal.
-            </p>
-
-          </div>
-        </div>
+        <HeroSlider />
       </section>
 
       {/* Services Section: Symmetrical Layout */}
-      <section className="py-16 lg:py-24 px-8 max-w-7xl mx-auto">
-        <div className={`grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-3`}>
+      <section className="py-16 lg:py-24 px-8 max-w-[90%] mx-auto">
+        <div className={`grid grid-cols-1 md:grid-cols-3 gap-4 lg:grid-cols-5 xl:gap-8`}>
           {/* Windows Block */}
           <div className="group cursor-pointer">
             <div className="relative h-[500px] overflow-hidden rounded-2xl shadow-sm bg-surface-container-low">
@@ -46,8 +26,8 @@ export default function Home() {
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
                 <h3 className="text-4xl font-headline font-bold mb-4">Windows</h3>
-                <p className="text-zinc-200 mb-6 max-w-md">Eliminate drafts and maximize energy savings with premium retrofit solutions. Engineered for total thermal efficiency.</p>
-                <Link href="/windows" className="inline-block bg-primary text-white px-6 py-2 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Eliminate drafts and maximize energy savings with premium retrofit solutions. Engineered for total thermal efficiency.</p>
+                <Link href="/windows" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
                   Explore Windows
                 </Link>
               </div>
@@ -65,8 +45,8 @@ export default function Home() {
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
                 <h3 className="text-4xl font-headline font-bold mb-4">Doors</h3>
-                <p className="text-zinc-200 mb-6 max-w-md">Enhance home security and stop energy loss with high performance custom doors. Designed for total thermal insulation.</p>
-                <Link href="/doors" className="inline-block bg-primary text-white px-6 py-2 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Enhance home security and stop energy loss with high performance custom doors. Designed for total thermal insulation.</p>
+                <Link href="/doors" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
                   Explore Doors
                 </Link>
               </div>
@@ -84,8 +64,8 @@ export default function Home() {
                   <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
                     <h3 className="text-4xl font-headline font-bold mb-4">Roofing</h3>
-                    <p className="text-zinc-200 mb-6 max-w-md">Protect your home with premium, weather-resistant roofing systems built for absolute durability and peace of mind.</p>
-                    <Link href="/roofing" className="inline-block bg-primary text-white px-6 py-2 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                    <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Protect your home with premium, weather-resistant roofing systems built for absolute durability and peace of mind.</p>
+                    <Link href="/roofing" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
                       Explore Roofing
                     </Link>
                   </div>
@@ -98,13 +78,13 @@ export default function Home() {
                   <img
                     alt="High Efficiency HVAC"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    src="https://images.unsplash.com/photo-1581094288331-6418d1828f72?auto=format&fit=crop&q=80"
+                    src="/hvac-slider.png"
                   />
                   <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
                     <h3 className="text-4xl font-headline font-bold mb-4">HVAC</h3>
-                    <p className="text-zinc-200 mb-6 max-w-md">Experience ultimate indoor comfort and superior energy efficiency with advanced heating and cooling installations.</p>
-                    <Link href="/hvac" className="inline-block bg-primary text-white px-6 py-2 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                    <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Experience ultimate indoor comfort and superior energy efficiency with advanced heating and cooling installations.</p>
+                    <Link href="/hvac" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
                       Explore HVAC
                     </Link>
                   </div>
@@ -122,8 +102,8 @@ export default function Home() {
                   <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
                     <h3 className="text-4xl font-headline font-bold mb-4">Plumbing</h3>
-                    <p className="text-zinc-200 mb-6 max-w-md">Upgrade your home's infrastructure with state-of-the-art repiping and fixture replacements.</p>
-                    <Link href="/plumbing" className="inline-block bg-primary text-white px-6 py-2 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                    <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Upgrade your home's infrastructure with state-of-the-art repiping and fixture replacements.</p>
+                    <Link href="/plumbing" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
                       Explore Plumbing
                     </Link>
                   </div>
@@ -173,10 +153,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div className="max-w-xl">
               <span className="text-primary font-headline font-bold tracking-widest text-xs uppercase mb-2 block">The Adler Way</span>
-              <h2 className="text-5xl font-headline font-extrabold tracking-tighter text-on-surface">Our Hassle-Free Process</h2>
+              <h2 className="text-5xl font-headline font-extrabold tracking-tighter text-on-surface">Our Hassle Free Process</h2>
             </div>
             <p className="text-secondary max-w-xs font-body italic border-l-4 border-primary-container pl-6 py-2">
-              Professionalism at every turn, from first call to final clean-up.
+              Professionalism at every turn, from first call to final clean up.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 relative">
@@ -189,8 +169,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative z-10">
-                <h4 className="text-xl font-headline font-bold mb-3 transition-colors duration-300 group-hover:text-primary">In-Home Consultation</h4>
-                <p className="text-secondary leading-relaxed">We meet at your residence to discuss your vision, evaluate your existing windows, and provide expert recommendations tailored to your budget.</p>
+                <h4 className="text-xl font-headline font-bold mb-3 transition-colors duration-300 group-hover:text-primary">In Home Consultation</h4>
+                <p className="text-secondary leading-relaxed">We meet at your residence to discuss your vision, evaluate your current space, and provide expert recommendations tailored to your budget.</p>
               </div>
             </div>
             {/* Step 2 */}
@@ -203,7 +183,7 @@ export default function Home() {
               </div>
               <div className="relative z-10">
                 <h4 className="text-xl font-headline font-bold mb-3 transition-colors duration-300 group-hover:text-primary">Precise Measurements</h4>
-                <p className="text-secondary leading-relaxed">Our technicians use laser-precision equipment to ensure your new units fit perfectly, eliminating potential air leaks or structural issues.</p>
+                <p className="text-secondary leading-relaxed">Our technicians use advanced equipment to ensure your new fixtures and materials fit perfectly, eliminating potential issues.</p>
               </div>
             </div>
             {/* Step 3 */}
@@ -216,7 +196,7 @@ export default function Home() {
               </div>
               <div className="relative z-10">
                 <h4 className="text-xl font-headline font-bold mb-3 transition-colors duration-300 group-hover:text-primary">Expert Installation</h4>
-                <p className="text-secondary leading-relaxed">Our certified crews handle the heavy lifting with surgical precision, maintaining a clean workspace and respecting your home environment.</p>
+                <p className="text-secondary leading-relaxed">Our certified crews handle the heavy lifting with utmost precision, maintaining a clean workspace and respecting your home environment.</p>
               </div>
             </div>
             {/* Step 4 */}
@@ -229,7 +209,7 @@ export default function Home() {
               </div>
               <div className="relative z-10">
                 <h4 className="text-xl font-headline font-bold mb-3 transition-colors duration-300 group-hover:text-primary">Customer Care</h4>
-                <p className="text-secondary leading-relaxed">We walk you through the final results, explain maintenance, and back our work with an industry-leading satisfaction guarantee.</p>
+                <p className="text-secondary leading-relaxed">We walk you through the final results, explain maintenance, and back our work with an industry leading satisfaction guarantee.</p>
               </div>
             </div>
           </div>
