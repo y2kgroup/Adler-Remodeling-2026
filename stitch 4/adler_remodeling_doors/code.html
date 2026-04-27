@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-container": "#005a64",
+              "tertiary-fixed-dim": "#54d8e9",
+              "outline": "#827560",
+              "on-primary": "#ffffff",
+              "background": "#fbf9f8",
+              "error-container": "#ffdad6",
+              "surface-tint": "#7b5800",
+              "on-surface-variant": "#504532",
+              "inverse-primary": "#febb06",
+              "error": "#ba1a1a",
+              "outline-variant": "#d4c4ab",
+              "secondary-fixed": "#e4e2e2",
+              "primary-container": "#fcb900",
+              "surface-container-highest": "#e4e2e2",
+              "on-tertiary": "#ffffff",
+              "tertiary": "#006973",
+              "secondary": "#5e5e5e",
+              "on-error": "#ffffff",
+              "primary-fixed": "#ffdea4",
+              "surface-container": "#f0eded",
+              "surface-container-low": "#f5f3f3",
+              "on-tertiary-fixed": "#001f24",
+              "inverse-surface": "#303030",
+              "primary-fixed-dim": "#febb06",
+              "surface": "#fbf9f8",
+              "surface-container-high": "#eae8e7",
+              "on-primary-fixed-variant": "#5d4200",
+              "surface-container-lowest": "#ffffff",
+              "secondary-container": "#e4e2e2",
+              "on-secondary-container": "#656464",
+              "on-primary-container": "#6a4c00",
+              "primary": "#7b5800",
+              "surface-dim": "#dbd9d9",
+              "on-error-container": "#93000a",
+              "tertiary-container": "#52d6e8",
+              "on-tertiary-fixed-variant": "#004f57",
+              "secondary-fixed-dim": "#c8c6c6",
+              "on-secondary-fixed-variant": "#474747",
+              "surface-bright": "#fbf9f8",
+              "on-surface": "#1b1c1c",
+              "on-secondary": "#ffffff",
+              "on-background": "#1b1c1c",
+              "inverse-on-surface": "#f2f0f0",
+              "tertiary-fixed": "#94f1ff",
+              "on-primary-fixed": "#261900",
+              "surface-variant": "#e4e2e2",
+              "on-secondary-fixed": "#1b1c1c"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-extrabold tracking-tighter text-zinc-900 dark:text-white font-headline">
+                Adler Remodeling
+            </div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 font-['Plus_Jakarta_Sans'] font-bold tracking-tight transition-all duration-200" href="#">Home</a>
+<a class="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 font-['Plus_Jakarta_Sans'] font-bold tracking-tight transition-all duration-200" href="#">Windows</a>
+<a class="text-amber-600 dark:text-amber-400 border-b-2 border-amber-500 pb-1 font-['Plus_Jakarta_Sans'] font-bold tracking-tight transition-all duration-200" href="#">Doors</a>
+<a class="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 font-['Plus_Jakarta_Sans'] font-bold tracking-tight transition-all duration-200" href="#">Gallery</a>
+<a class="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 font-['Plus_Jakarta_Sans'] font-bold tracking-tight transition-all duration-200" href="#">About Us</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:block text-zinc-600 font-semibold hover:text-zinc-900 transition-colors">Call Us</button>
+<button class="bg-primary-container text-on-primary-container px-6 py-2.5 rounded-lg font-bold shadow-sm hover:brightness-105 active:scale-95 transition-all">
+                    Get a Free Estimate
+                </button>
+</div>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative h-[819px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Luxury double entry doors" class="w-full h-full object-cover" data-alt="stunning wide angle shot of double solid wood arched entry doors with intricate ironwork details at sunset with warm glowing lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWN0mc2E3KTTOZ20oTjmCLojEojVd6aAjdOQJ2PQz2EFo1VovvzTEs5xmGUDC34ofWY7Kp_CV1Ql9wZwB7RmupDBw7WVIijKROcY4EL9ENpxFY9SKricNQ16sEiC380FO9s87sw1AryNywYA-eLZXn56Gdx6zq6g2vnpefr17NX93C8te6HrPhyTuX3fI7Sxvwqo1vX3PyuQ-S_Vk5yp58SgLfFSZV8W1PItKlE1bPs4HS18DDSDBf7302jK7WOjvUEQvaZBkoLVE"/>
+<div class="absolute inset-0 bg-gradient-to-r from-on-surface/60 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-2xl">
+<span class="inline-block text-primary-container font-bold tracking-[0.2em] uppercase text-sm mb-4 font-label">Bespoke Architectural Openings</span>
+<h1 class="text-white font-headline text-6xl md:text-8xl font-extrabold leading-[1.1] tracking-tighter mb-8">
+                        Secure &amp; Stylish Exterior Doors
+                    </h1>
+<p class="text-zinc-200 text-xl font-medium leading-relaxed mb-10 border-l-4 border-primary px-6">
+                        Engineering the perfect transition between your sanctuary and the world. Adler doors combine impenetrable security with high-design aesthetics.
+                    </p>
+<div class="flex gap-4">
+<a class="bg-primary text-white px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-primary/90 transition-colors" href="#estimate">
+                            Request Consultation
+                            <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Collections: Entry vs Patio -->
+<section class="py-24 bg-surface px-8">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="max-w-xl">
+<span class="text-primary font-bold text-sm tracking-widest uppercase font-label">The Collection</span>
+<h2 class="text-4xl md:text-5xl font-headline font-bold text-on-surface mt-2 leading-tight">Mastering Every Entrance</h2>
+</div>
+<p class="text-on-surface-variant max-w-md text-lg italic">"A door is more than an entry point; it's the first handshake of your home's personality."</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Entry Doors -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[4/5] overflow-hidden rounded-xl bg-surface-container-low mb-6">
+<img alt="Modern grand entry door" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Modern minimalist black metal entry door with tall glass side panels in a contemporary white stone luxury home exterior" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKL4Y6bu_TUTPjwEXSsI0SCiFQuV-zTDlTq2hPd49ttCxY6Z6EIXRbXpEMhVTmRyRvLPQeWcXYstLjBzTbw9iM4fu1sjJSLaA9YHt4YhmLD_sJ_29ab0ChS0rO-PbZtIBj1n1w6xaL5nQ44yo9gnGzy8hVshnvKa_-OFhpudkvbrKW3xEkf94PWCoL-z8_KE-5PM9ggtFEWlpxXXXp-lHR_YgdAQ923WVSiJcu8RIh2Y5499h4y_cNctUe8Sugaepa23QvHdrJJ1E"/>
+<div class="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<p class="text-on-surface text-sm font-medium">Custom hardware, smart-lock integration, and reinforced steel cores.</p>
+</div>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-2">Grand Entry Doors</h3>
+<p class="text-on-surface-variant">Make a lasting first impression with architectural statement pieces designed for longevity.</p>
+</div>
+<!-- Patio Doors -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[4/5] overflow-hidden rounded-xl bg-surface-container-low mb-6">
+<img alt="Sleek sliding glass doors" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="minimalist floor to ceiling sliding glass doors opening onto a luxury pool deck at dusk with soft indoor lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkWd7HBSAECze4GU6iWYoz4pkEz1qL7qHfMrN_EYNfAvixP4o93l2ZelShl75wZ_VTepfW84KMymnh5Qxpl9hjxeBrJbTvw2LUrUPrtmj0bqH_O2zToZmNnbiAGFyNt6Azoln7zBBmTyXv44Sctqw7zByTBI3yWz0Qzt-vvohLn8sWajl6SlMT8nMGi5fGFtgnPeZNOfogXaONVqmTBkQNvwZYuq_MBuHMOzsjNm2HgPRI6s9pqOHR01gEOIHvLd6S-4ywc4eYCxI"/>
+<div class="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<p class="text-on-surface text-sm font-medium">Ultra-slim frames with high-performance thermal breaks and panoramic views.</p>
+</div>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-2">Panoramic Patio Doors</h3>
+<p class="text-on-surface-variant">Dissolve the boundaries between your interior living space and the natural beauty of the outdoors.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Excellence Section -->
+<section class="py-24 bg-surface-container-low px-8 overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-16 items-start">
+<!-- Sidebar Label -->
+<div class="lg:sticky lg:top-32">
+<div class="bg-primary w-12 h-1 mb-6"></div>
+<h2 class="text-3xl font-headline font-extrabold tracking-tight mb-4">The Adler Standard</h2>
+<p class="text-on-surface-variant leading-relaxed">Every Adler door is a multi-layered system designed to withstand time, weather, and intruders.</p>
+</div>
+<!-- Enhanced Security Bento -->
+<div class="lg:col-span-2 space-y-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Security Card -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">shield</span>
+</div>
+<h4 class="text-xl font-bold mb-3 font-headline">Enhanced Security</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Featuring multi-point locking systems and impact-resistant glass layers that meet the highest residential safety standards.</p>
+</div>
+<!-- Insulation Card -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10">
+<div class="w-12 h-12 bg-tertiary/10 rounded-full flex items-center justify-center mb-6 text-tertiary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">thermostat</span>
+</div>
+<h4 class="text-xl font-bold mb-3 font-headline">Thermal Efficiency</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Polyurethane foam cores and high-density weather stripping ensure zero drafts and maximum energy savings year-round.</p>
+</div>
+<!-- Durability Card -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10 md:col-span-2">
+<div class="flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">diamond</span>
+</div>
+<h4 class="text-xl font-bold mb-3 font-headline">Unrivaled Durability</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Constructed from fiberglass and treated steels that won't warp, rot, or fade under intense UV exposure or moisture.</p>
+</div>
+<div class="w-full md:w-1/2 aspect-video rounded-lg overflow-hidden">
+<img alt="Door detail" class="w-full h-full object-cover" data-alt="extreme close up of a high end modern black door handle and deadbolt with sleek metallic texture and subtle reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuByvwaKF9Wf2J3wrs5ZuKpPBWyOApmgNbK-CB4KfmM9j0ZLCjG3_lAogugWUAwpypYoNrYM_k2KfIfcplRZVaMeCtNXzYTO8TmSLDuSxSlaCYoeoeErk0zKDzFwY6PvYKXe6-UbzLK4QUeyG3Ay89koTa3CykvNvF3cn4Dduv4yjELjk35vPA8mwXcr_Pb_2hzwZy--aMLYHCR2DNX1fAWfP5YPQaZ3QiSE61Z7GA99Yf76J7xZ5WDnaCbOCtpq-bN0PwJXUXK3tbQ"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Estimate Form Section -->
+<section class="py-24 bg-white px-8" id="estimate">
+<div class="max-w-7xl mx-auto bg-on-surface text-white rounded-[2rem] overflow-hidden flex flex-col lg:flex-row shadow-2xl">
+<div class="lg:w-1/2 p-12 md:p-20 flex flex-col justify-center">
+<h2 class="text-4xl md:text-5xl font-headline font-extrabold mb-6 leading-tight">Ready to transform your entrance?</h2>
+<p class="text-zinc-400 text-lg mb-8">Schedule a free design consultation. Our specialists will help you select the perfect materials, security features, and finishes for your home.</p>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary-container">verified</span>
+<span>Expert on-site measurements</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary-container">palette</span>
+<span>Custom finish and hardware matching</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary-container">calendar_today</span>
+<span>Project timeline and cost analysis</span>
+</div>
+</div>
+</div>
+<div class="lg:w-1/2 bg-surface-container-highest/10 p-12 md:p-20">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-xs font-bold uppercase tracking-widest mb-2 text-zinc-400">First Name</label>
+<input class="w-full bg-zinc-900 border-zinc-800 rounded-lg p-4 focus:ring-2 focus:ring-primary focus:border-transparent transition-all" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-widest mb-2 text-zinc-400">Last Name</label>
+<input class="w-full bg-zinc-900 border-zinc-800 rounded-lg p-4 focus:ring-2 focus:ring-primary focus:border-transparent transition-all" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-widest mb-2 text-zinc-400">Email Address</label>
+<input class="w-full bg-zinc-900 border-zinc-800 rounded-lg p-4 focus:ring-2 focus:ring-primary focus:border-transparent transition-all" type="email"/>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-widest mb-2 text-zinc-400">Door Interest</label>
+<select class="w-full bg-zinc-900 border-zinc-800 rounded-lg p-4 focus:ring-2 focus:ring-primary focus:border-transparent transition-all appearance-none">
+<option>Entry Door Replacement</option>
+<option>Patio / Sliding Doors</option>
+<option>Multi-Slide Systems</option>
+<option>Custom Storm Doors</option>
+</select>
+</div>
+<button class="w-full bg-primary-container text-on-primary-container py-4 rounded-lg font-extrabold text-lg hover:brightness-110 active:scale-[0.98] transition-all mt-4" type="submit">
+                            Get a Free Estimate
+                        </button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-zinc-100 dark:bg-zinc-950 w-full py-12 px-8 border-t border-zinc-200 dark:border-zinc-800">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-7xl mx-auto">
+<div class="space-y-4">
+<div class="text-xl font-bold text-zinc-800 dark:text-zinc-200 font-headline">Adler Remodeling</div>
+<p class="font-['Inter'] text-sm text-zinc-500 dark:text-zinc-400">Precision in every detail. Crafting the finest architectural openings for discerning homeowners since 1998.</p>
+</div>
+<div>
+<h5 class="font-bold mb-4">Solutions</h5>
+<ul class="space-y-2 font-['Inter'] text-sm text-zinc-500 dark:text-zinc-400">
+<li><a class="hover:text-amber-800 transition-colors" href="#">Replacement Windows</a></li>
+<li><a class="hover:text-amber-800 transition-colors" href="#">Custom Doors</a></li>
+<li><a class="hover:text-amber-800 transition-colors" href="#">Security Glass</a></li>
+<li><a class="hover:text-amber-800 transition-colors" href="#">Installation Service</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold mb-4">Company</h5>
+<ul class="space-y-2 font-['Inter'] text-sm text-zinc-500 dark:text-zinc-400">
+<li><a class="hover:text-zinc-800 dark:hover:text-zinc-200 underline underline-offset-4 decoration-amber-500" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-zinc-800 dark:hover:text-zinc-200 underline underline-offset-4 decoration-amber-500" href="#">Terms of Service</a></li>
+<li><a class="hover:text-zinc-800 dark:hover:text-zinc-200 underline underline-offset-4 decoration-amber-500" href="#">Licensing</a></li>
+<li><a class="hover:text-zinc-800 dark:hover:text-zinc-200 underline underline-offset-4 decoration-amber-500" href="#">Sitemap</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold mb-4">Contact</h5>
+<p class="font-['Inter'] text-sm text-zinc-500 dark:text-zinc-400">1200 Architecture Way<br/>Design District, CA 90210</p>
+<p class="font-['Inter'] text-sm text-zinc-500 dark:text-zinc-400 mt-2">hello@adlerremodeling.com</p>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-800 text-center font-['Inter'] text-sm text-zinc-500 dark:text-zinc-400">
+            © 2024 Adler Remodeling. All rights reserved. Precision in every detail.
+        </div>
+</footer>
+</body></html>
