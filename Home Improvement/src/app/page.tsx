@@ -123,8 +123,8 @@ export default function Home() {
             {/* NEW Comparison 1: Sliding Doors */}
             <div className="space-y-6">
               <BeforeAfterSlider 
-                beforeImage="/transformations/before-sliding-door.png" 
-                afterImage="/transformations/after-sliding-door.png" 
+                beforeImage="/transformations/before-sliding-door-v2.png" 
+                afterImage="/transformations/after-sliding-door-v2.png" 
               />
               <div className="px-2">
                 <h4 className="text-xl font-headline font-bold text-on-surface">Modern Multi-Slide Transformation</h4>
@@ -135,8 +135,8 @@ export default function Home() {
             {/* NEW Comparison 2: Roofing */}
             <div className="space-y-6">
               <BeforeAfterSlider 
-                beforeImage="/transformations/before-roofing.png" 
-                afterImage="/transformations/after-roofing.png" 
+                beforeImage="/transformations/before-roofing-v2.png" 
+                afterImage="/transformations/after-roofing-v2.png" 
               />
               <div className="px-2">
                 <h4 className="text-xl font-headline font-bold text-on-surface">Complete Architectural Roof Replacement</h4>

@@ -44,9 +44,6 @@ export default function Footer() {
               <Link className="hover:text-primary transition-colors" href="/sliding-doors">Sliding Doors</Link>
             </li>
             <li>
-              <Link className="hover:text-primary transition-colors" href="/doors">Doors</Link>
-            </li>
-            <li>
               <Link className="hover:text-primary transition-colors" href="/roofing">Roofing</Link>
             </li>
             <li>
