@@ -25,10 +25,10 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
-                <h3 className="text-4xl font-headline font-bold mb-4">Windows</h3>
-                <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Eliminate drafts and maximize energy savings with premium retrofit solutions. Engineered for total thermal efficiency.</p>
-                <Link href="/windows" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
-                  Explore Windows
+                <h3 className="text-4xl font-headline font-bold mb-4">Sliding Doors</h3>
+                <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Enhance your living space with beautiful sliding doors that maximize natural light and indoor-outdoor flow.</p>
+                <Link href="/sliding-doors" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                  Explore Sliding Doors
                 </Link>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function Home() {
               <img
                 alt="Luxury Front Door"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-9Xjyvl5QQ2C-x4cZ_LmeF18MzCASATWaLAk6o03gaUQM79LdBQL81jRqotj09jeHxj8RLEpf3JfwFyaBlq8pSc3JqetUHEGVO691XsxJmJsfV9v9to2A3ZOv04a5nPZGk8kgbTs4BUlCHHwXgs4lz2LMBadfG_nt4qFez-M81PejnyNo8TIc14k3bDwpaaYlDnXuH_qcoxyQrGEPF6_nXMqkk43STRmTGcEmOWma8B9mQrFVcmziLhkd2O3LIqAV2jERQDhZfPI"
+                src="/doors-card.png"
               />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
@@ -120,7 +120,31 @@ export default function Home() {
             <h2 className="text-5xl font-headline font-extrabold tracking-tighter text-on-surface">Before & After Transformations</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {/* Comparison 1 */}
+            {/* NEW Comparison 1: Sliding Doors */}
+            <div className="space-y-6">
+              <BeforeAfterSlider 
+                beforeImage="/transformations/before-sliding-door.png" 
+                afterImage="/transformations/after-sliding-door.png" 
+              />
+              <div className="px-2">
+                <h4 className="text-xl font-headline font-bold text-on-surface">Modern Multi-Slide Transformation</h4>
+                <p className="text-secondary text-sm mt-2">Replaced a damaged, outdated patio door with a stunning, energy-efficient multi-slide system, completely opening the living space to the outdoors.</p>
+              </div>
+            </div>
+
+            {/* NEW Comparison 2: Roofing */}
+            <div className="space-y-6">
+              <BeforeAfterSlider 
+                beforeImage="/transformations/before-roofing.png" 
+                afterImage="/transformations/after-roofing.png" 
+              />
+              <div className="px-2">
+                <h4 className="text-xl font-headline font-bold text-on-surface">Complete Architectural Roof Replacement</h4>
+                <p className="text-secondary text-sm mt-2">Stripped an old, failing asphalt roof and installed a premium architectural shingle system, instantly modernizing the home's exterior and ensuring decades of protection.</p>
+              </div>
+            </div>
+            
+            {/* PRESERVED COMPARISONS FOR LATER USE 
             <div className="space-y-6">
               <BeforeAfterSlider 
                 beforeImage="/transformations/before-2.jpeg" 
@@ -132,7 +156,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Comparison 2 */}
             <div className="space-y-6">
               <BeforeAfterSlider 
                 beforeImage="/transformations/before-1.jpeg" 
@@ -143,6 +166,7 @@ export default function Home() {
                 <p className="text-secondary text-sm mt-2">Replaced a decaying, drafty wooden slider with a high-efficiency white vinyl patio door and durable screen, eliminating air leaks and upgrading everyday functionality.</p>
               </div>
             </div>
+            */}
           </div>
         </div>
       </section>
