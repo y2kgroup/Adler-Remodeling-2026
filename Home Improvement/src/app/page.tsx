@@ -25,29 +25,29 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
-                <h3 className="text-4xl font-headline font-bold mb-4">Sliding Doors</h3>
-                <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Enhance your living space with beautiful sliding doors that maximize natural light and indoor-outdoor flow.</p>
-                <Link href="/sliding-doors" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
-                  Explore Sliding Doors
+                <h3 className="text-4xl font-headline font-bold mb-4">Windows</h3>
+                <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Eliminate drafts and maximize energy savings with premium retrofit solutions. Engineered for total thermal efficiency.</p>
+                <Link href="/windows" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                  Explore Windows
                 </Link>
               </div>
             </div>
           </div>
 
-          {/* Doors Block */}
+          {/* Sliding Doors Block */}
           <div className="group cursor-pointer">
             <div className="relative h-[500px] overflow-hidden rounded-2xl shadow-sm bg-surface-container-low">
               <img
-                alt="Luxury Front Door"
+                alt="Premium Sliding Doors"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src="/doors-card.png"
+                src="/sliding-doors-card.png"
               />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
-                <h3 className="text-4xl font-headline font-bold mb-4">Doors</h3>
-                <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Enhance home security and stop energy loss with high performance custom doors. Designed for total thermal insulation.</p>
-                <Link href="/doors" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
-                  Explore Doors
+                <h3 className="text-4xl font-headline font-bold mb-4">Sliding Doors</h3>
+                <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Enhance your living space with beautiful sliding doors that maximize natural light and indoor-outdoor flow.</p>
+                <Link href="/sliding-doors" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                  Explore Sliding Doors
                 </Link>
               </div>
             </div>

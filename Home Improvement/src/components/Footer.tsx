@@ -38,6 +38,9 @@ export default function Footer() {
               <Link className="hover:text-primary transition-colors" href="/">Home</Link>
             </li>
             <li>
+              <Link className="hover:text-primary transition-colors" href="/windows">Windows</Link>
+            </li>
+            <li>
               <Link className="hover:text-primary transition-colors" href="/sliding-doors">Sliding Doors</Link>
             </li>
             <li>
