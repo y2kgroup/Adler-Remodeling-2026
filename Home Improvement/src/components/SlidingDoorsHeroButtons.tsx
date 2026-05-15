@@ -4,7 +4,7 @@ import { useState } from "react";
 import EstimateModal from "./EstimateModal";
 import Link from "next/link";
 
-export default function WindowsHeroButtons() {
+export default function SlidingDoorsHeroButtons() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (

@@ -14,7 +14,7 @@ export default function Header() {
       name: "Services", 
       href: "/services",
       subLinks: [
-        { name: "Windows", href: "/windows" },
+        { name: "Sliding Doors", href: "/sliding-doors" },
         { name: "Doors", href: "/doors" },
         { name: "Roofing", href: "/roofing" },
         { name: "HVAC", href: "/hvac" },

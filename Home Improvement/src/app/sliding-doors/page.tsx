@@ -1,8 +1,8 @@
-import WindowTypesCarousel from '@/components/WindowTypesCarousel';
+import SlidingDoorTypesCarousel from '@/components/SlidingDoorTypesCarousel';
 import ContactForm from "@/components/ContactForm";
-import WindowsHeroButtons from "@/components/WindowsHeroButtons";
+import SlidingDoorsHeroButtons from "@/components/SlidingDoorsHeroButtons";
 
-export default function Windows() {
+export default function SlidingDoors() {
   return (
     <>
       {/* Hero Section */}
@@ -19,12 +19,12 @@ export default function Windows() {
           <div className="max-w-2xl">
             <span className="inline-block px-3 py-1 bg-primary/10 text-primary font-label text-sm font-bold tracking-widest uppercase mb-6 rounded">Architectural Excellence</span>
             <h1 className="text-5xl md:text-7xl font-headline font-extrabold tracking-tighter text-on-surface mb-8 leading-[1.1]">
-              Energy efficient <br /> <span className="text-[#fcb900]">Windows</span> solution
+              Seamless Indoor-Outdoor <br /> <span className="text-[#fcb900]">Sliding Doors</span>
             </h1>
             <p className="text-xl text-secondary max-w-lg mb-10 leading-relaxed">
-              Precision engineered replacements that frame your world while keeping your home's climate exactly where it belongs.
+              Precision engineered sliding doors that frame your world, maximize natural light, and keep your home's climate perfectly regulated.
             </p>
-            <WindowsHeroButtons />
+            <SlidingDoorsHeroButtons />
           </div>
         </div>
       </section>
@@ -34,8 +34,8 @@ export default function Windows() {
         <div className="w-full mx-auto px-8 lg:px-16 2xl:px-24">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-16 items-end mb-24 max-w-7xl mx-auto">
             <div className="md:col-span-7">
-              <h2 className="text-4xl md:text-6xl font-headline font-bold tracking-tight mb-8">Why Upgrade Your <span className="text-[#fcb900]">Windows</span>?</h2>
-              <p className="text-xl text-secondary leading-relaxed">Old windows are the primary source of thermal loss in modern homes. Our advanced glass technologies transform your living space into a sanctuary of efficiency and quiet.</p>
+              <h2 className="text-4xl md:text-6xl font-headline font-bold tracking-tight mb-8">Why Upgrade Your <span className="text-[#fcb900]">Sliding Doors</span>?</h2>
+              <p className="text-xl text-secondary leading-relaxed">Old sliding doors are often drafty, difficult to open, and compromise your home's security. Our advanced glass and track technologies transform your entryways into smooth, secure, and highly efficient architectural features.</p>
             </div>
             <div className="md:col-span-5 flex justify-end">
               <div className="p-8 bg-surface-container-low rounded-xl border border-outline-variant/15 flex items-center gap-6">
@@ -53,24 +53,24 @@ export default function Windows() {
               <div className="w-20 h-20 bg-[#fcb900]/10 rounded-full flex items-center justify-center mb-8 group-hover:bg-[#fcb900]/20 transition-colors">
                 <span className="material-symbols-outlined text-[#fcb900] text-4xl" aria-hidden="true">home</span>
               </div>
-              <h3 className="text-3xl font-headline font-bold mb-6 leading-tight">Transform Your Home with Premium Replacement Windows</h3>
-              <p className="text-secondary leading-relaxed text-lg">Upgrading your home's windows is one of the most impactful investments you can make for your property's value, comfort, and curb appeal. Our premium replacement windows not only breathe new life into your exterior but also dramatically reduce your monthly energy bills by keeping your home perfectly insulated year round. Whether you want to modernize your aesthetic or restore historical charm, we provide tailor made solutions to fit your exact vision. Stop letting drafts hold your home back. Contact our expert team today to schedule your free, no obligation consultation and get started!</p>
+              <h3 className="text-3xl font-headline font-bold mb-6 leading-tight">Transform Your Home with Premium Sliding Doors</h3>
+              <p className="text-secondary leading-relaxed text-lg">Upgrading your sliding doors is one of the most impactful investments you can make for your property's value, comfort, and functionality. Our premium sliding doors not only breathe new life into your living spaces but also dramatically reduce your monthly energy bills. Whether you want to modernize your aesthetic or completely open up a wall for indoor-outdoor living, we provide tailor made solutions to fit your exact vision.</p>
             </div>
             {/* Feature Card 2 */}
             <div className="group p-6 lg:p-12 bg-surface-container-lowest rounded-xl hover:shadow-2xl transition-all duration-500 border border-outline-variant/10 text-left">
               <div className="w-20 h-20 bg-[#fcb900]/10 rounded-full flex items-center justify-center mb-8 group-hover:bg-[#fcb900]/20 transition-colors">
                 <span className="material-symbols-outlined text-[#fcb900] text-4xl" aria-hidden="true">light_mode</span>
               </div>
-              <h3 className="text-3xl font-headline font-bold mb-6 leading-tight">Elevate Every Room with Beautiful, Natural Light</h3>
-              <p className="text-secondary leading-relaxed text-lg">Imagine your kitchen, living room, and hallways bathed in gorgeous, natural sunlight. The right window design completely changes how a space feels, making dark areas feel expansive, welcoming, and vibrant. We specialize in custom window installations designed to maximize your view and optimize the light flowing into your most cherished living spaces. From sleek picture windows to elegant sliders, our high quality products are built to perform and designed to inspire. Ready to brighten up your everyday life? Reach out to our dedicated team today and let us bring your vision into reality!</p>
+              <h3 className="text-3xl font-headline font-bold mb-6 leading-tight">Effortless Operation and Expansive Views</h3>
+              <p className="text-secondary leading-relaxed text-lg">Imagine your kitchen, living room, and patios seamlessly connected with gorgeous, natural sunlight. The right sliding door completely changes how a space feels, making areas feel expansive, welcoming, and vibrant. We specialize in custom door installations designed to maximize your view and optimize the light flowing into your most cherished living spaces. From smooth-gliding standard doors to dramatic multi-slide systems, our products are built to perform and designed to inspire.</p>
             </div>
             {/* Feature Card 3 */}
             <div className="group p-6 lg:p-12 bg-surface-container-lowest rounded-xl hover:shadow-2xl transition-all duration-500 border border-outline-variant/10 text-left">
               <div className="w-20 h-20 bg-[#fcb900]/10 rounded-full flex items-center justify-center mb-8 group-hover:bg-[#fcb900]/20 transition-colors">
                 <span className="material-symbols-outlined text-[#fcb900] text-4xl" aria-hidden="true">shield_lock</span>
               </div>
-              <h3 className="text-3xl font-headline font-bold mb-6 leading-tight">Upgrade Your Security and Maximize Energy Savings</h3>
-              <p className="text-secondary leading-relaxed text-lg">Beyond stunning aesthetics, modern replacement windows provide an essential shield against unpredictable weather and outside noise. Our industry leading window solutions are engineered with advanced glass technology to deliver superior thermal performance, keeping you cool in the summer and cozy in the winter. Additionally, advanced locking mechanisms ensure your family's safety and give you absolute peace of mind. Don't settle for underperforming windows that cost you money every single month. Connect with us today to discover how easy and affordable your home upgrades can actually be!</p>
+              <h3 className="text-3xl font-headline font-bold mb-6 leading-tight">Upgrade Your Security and Durability</h3>
+              <p className="text-secondary leading-relaxed text-lg">Beyond stunning aesthetics, modern sliding doors provide an essential shield against unpredictable weather and outside noise. Our industry leading door solutions are engineered with advanced glass technology to deliver superior thermal performance, keeping you cool in the summer and cozy in the winter. Additionally, heavy-duty locking mechanisms ensure your family's safety and give you absolute peace of mind.</p>
             </div>
           </div>
         </div>
@@ -84,56 +84,56 @@ export default function Windows() {
             <h2 className="text-5xl font-headline font-bold tracking-tight">Curated Styles for Every Architectural Vision</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[900px]">
-            {/* Large Feature: Double-Hung */}
+            {/* Large Feature: Standard Sliding */}
             <div className="md:col-span-8 relative rounded-xl overflow-hidden group">
               <img
-                alt="Double-hung window"
+                alt="Standard 2-Panel Sliding Door"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ-wl0AmW1q22egeO_QeN2LAO6_vGVyE6-Imm2WE9mR0Sl8XH5yEn1HbiRxB5tJyIBGT8oqKFUbspMw3S3_S7IV-J65RK4lA5SQZl1RFcwbcsZM6Rr7ve26SivesYsWArCZAcNQ0EbvV3lmId5B0TQv0nSXUWh7R2cIwt1kcV_1wJnYmC50fas6HwhdCPaHIMdmZY15aDu6IFaGIGI21hRTbEdiaREgNpPisGgarF8DNr_TlIdZtA3xOnj97pSsrdxvlFqTjzsrDA"
+                src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=2070&auto=format&fit=crop"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
               <div className="absolute bottom-0 left-0 p-6 md:p-10 drop-shadow-md">
-                <h3 className="text-4xl font-headline font-bold text-white mb-2 drop-shadow-lg">Double-hung</h3>
-                <p className="text-white/90 max-w-md text-lg drop-shadow-lg">The timeless standard of American architecture. Featuring two vertically movable sashes for maximum ventilation control and tilt-in designs for easy cleaning from the inside. Ideal for traditional and craftsman aesthetics.</p>
+                <h3 className="text-4xl font-headline font-bold text-white mb-2 drop-shadow-lg">Standard 2-Panel</h3>
+                <p className="text-white/90 max-w-md text-lg drop-shadow-lg">The classic, reliable choice for patios and decks. One fixed panel and one operable panel provide an excellent balance of ventilation, natural light, and space-saving efficiency.</p>
               </div>
             </div>
-            {/* Side: Casement */}
+            {/* Side: French-Style Sliding */}
             <div className="md:col-span-4 relative rounded-xl overflow-hidden group">
               <img
-                alt="Casement window"
+                alt="French-Style Sliding Door"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbqsVwiRXcZLob5Z_O_ZSZWtEET_B8ZVnxjaQb0DUG6MeYWIcpYq66SlWogEOl1oxx6C6sHc22D3PmlWiTkKb06T2l0dlJk14B0dIJJ4gXgUym5wkDEmp6UPI5dOxkj05qT9mXtIvZ9M75PawdCjHA-L39Hvo3lxcI4FqbylCauL_hjO9m4niSiLSwrrRJJ0DDq-XJpu_7t6nv6nOIwJwFSBX-kjWhZAhOoyy3MhHPmvbtmUJGouRYAgKltpVYO8ns3UTNiYKzBmo"
+                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
               <div className="absolute bottom-0 left-0 p-8 drop-shadow-md">
-                <h3 className="text-3xl font-headline font-bold text-white mb-2 drop-shadow-lg">Casement</h3>
-                <p className="text-white/90 text-sm drop-shadow-lg">Hinged at the side and opening outward like a door with a simple crank. These provide completely unobstructed views, superior energy efficiency with compression seals, and catch passing breezes for full airflow.</p>
+                <h3 className="text-3xl font-headline font-bold text-white mb-2 drop-shadow-lg">French-Style</h3>
+                <p className="text-white/90 text-sm drop-shadow-lg">Combining the traditional elegance of French doors with the space-saving functionality of a slider. Featuring wider profiles and beautiful grid patterns.</p>
               </div>
             </div>
-            {/* Bottom Left: Picture */}
+            {/* Bottom Left: Pocket Sliding */}
             <div className="md:col-span-4 relative rounded-xl overflow-hidden group">
               <img
-                alt="Picture window"
+                alt="Pocket Sliding Door"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpu3rNYlj7NcXXPVmBCyo4xFnHSZGdelxNfe51G8u4TjAyNsvh8TAFjwJW9ItDBO-lGskOnvuMJNFjIeugO5gwg8HwH0qb7jjpdNRNtgWgpbAqMLBw7bx2kdUJQirsIBop3VsBtD_YUxVz4FmGchwPe_hQ13wpZbu5ETKTk1Gls0rmOtSw4EKQbfzk612AMBEogu0VV3TPSg-9JPDyB3EWEOZdj4YbU08zfh67LbaiutH6fCTbpmL7vQGb7i98YO_KdGy4zhRFaKk"
+                src="https://images.unsplash.com/photo-1600607688969-a5bfcd64bd28?q=80&w=2070&auto=format&fit=crop"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
               <div className="absolute bottom-0 left-0 p-8 drop-shadow-md">
-                <h3 className="text-3xl font-headline font-bold text-white mb-2 drop-shadow-lg">Picture</h3>
-                <p className="text-white/90 text-sm drop-shadow-lg">Expansive stationary glass installations designed to frame views like a living piece of art. Picture windows flood your home with natural sunlight while offering the absolute highest level of thermal insulation since they do not open.</p>
+                <h3 className="text-3xl font-headline font-bold text-white mb-2 drop-shadow-lg">Pocket Sliders</h3>
+                <p className="text-white/90 text-sm drop-shadow-lg">The ultimate space maximizer. These doors glide completely into the adjacent wall, creating an entirely unobstructed, seamless opening to your outdoor living area.</p>
               </div>
             </div>
-            {/* Bottom Right: Custom Shapes */}
+            {/* Bottom Right: Multi-Slide */}
             <div className="md:col-span-8 relative rounded-xl overflow-hidden group">
               <img
-                alt="Specialty shape window"
+                alt="Multi-Slide Door"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIn7_n5-RKXN0p1Hjrwv_QnELeMy6TCAmo3jYwF19c_bLioVhnzLGXnSe70G2ilqgJ-ptmsV00ZU2Rd90UOPsGnpDzRp_2GSe2WiBEKMi9eNLRHyeSYN7J0NGdH8MzbVWAXP9fLpaq3Wg1ckPSRS-7y0IeEuFpT7jBblX0c-IwARRGrxQiPGvGHwIZ_CqneIu2skr6luwOlwSQ218t373zVmVxf8-eJpzDG32WT62hM-RennW0pAImOUNCkyS_N3PCRS-cp8jg1hQ"
+                src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
               <div className="absolute bottom-0 left-0 p-6 md:p-10 drop-shadow-md">
-                <h3 className="text-4xl font-headline font-bold text-white mb-2 drop-shadow-lg">Specialty Shapes</h3>
-                <p className="text-white/90 max-w-md text-lg drop-shadow-lg">Custom geometric and architectural designs—from half-circles and transoms to dramatic floor-to-ceiling trapezoids—that add unique character and dramatic focal points to your home's exterior facade and interior spaces.</p>
+                <h3 className="text-4xl font-headline font-bold text-white mb-2 drop-shadow-lg">Multi-Slide Systems</h3>
+                <p className="text-white/90 max-w-md text-lg drop-shadow-lg">Engineered for massive openings, these 3, 4, or 5-panel systems stack neatly on one side or part in the middle, completely transforming your living room into an open-air pavilion.</p>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function Windows() {
       </section>
 
       {/* Infinite Window Types Carousel */}
-      <WindowTypesCarousel />
+      <SlidingDoorTypesCarousel />
 
       {/* CTA Section */}
       <section className="py-16 lg:py-24 relative overflow-hidden">

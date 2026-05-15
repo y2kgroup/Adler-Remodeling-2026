@@ -39,16 +39,6 @@ export default function SocialSidebar() {
         <img src="/social/2.png" alt="Yelp Custom Icon" className="w-[22px] h-[22px] object-contain group-hover:brightness-0 group-hover:invert transition-all" />
       </a>
 
-      {/* BBB */}
-      <a 
-        href="https://www.bbb.org/us/ca/oak-park/profile/construction/adler-remodeling-inc-1236-92096616" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        className="p-2.5 text-zinc-950 hover:bg-[#005a78] hover:text-white rounded-xl transition-all hover:scale-110 flex items-center justify-center group"
-        aria-label="Better Business Bureau"
-      >
-        <img src="/social/1.png" alt="BBB Custom Icon" className="w-[22px] h-[22px] object-contain scale-[1.4] group-hover:brightness-0 group-hover:invert transition-all" />
-      </a>
 
     </div>
   );
