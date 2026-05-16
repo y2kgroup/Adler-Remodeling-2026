@@ -112,7 +112,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Before & After Showcase */}
+      {/* Before & After Showcase (Removed per user request) 
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
@@ -120,7 +120,6 @@ export default function Home() {
             <h2 className="text-5xl font-headline font-extrabold tracking-tighter text-on-surface">Before & After Transformations</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {/* NEW Comparison 1: Sliding Doors */}
             <div className="space-y-6">
               <BeforeAfterSlider 
                 beforeImage="/transformations/before-sliding-door-v2.png" 
@@ -132,7 +131,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* NEW Comparison 2: Roofing */}
             <div className="space-y-6">
               <BeforeAfterSlider 
                 beforeImage="/transformations/before-roofing-v2.png" 
@@ -144,7 +142,6 @@ export default function Home() {
               </div>
             </div>
             
-            {/* PRESERVED COMPARISONS FOR LATER USE 
             <div className="space-y-6">
               <BeforeAfterSlider 
                 beforeImage="/transformations/before-2.jpeg" 
@@ -166,10 +163,10 @@ export default function Home() {
                 <p className="text-secondary text-sm mt-2">Replaced a decaying, drafty wooden slider with a high-efficiency white vinyl patio door and durable screen, eliminating air leaks and upgrading everyday functionality.</p>
               </div>
             </div>
-            */}
           </div>
         </div>
       </section>
+      */}
 
       {/* Our Hassle-Free Process */}
       <section className="bg-surface-container-low py-16 lg:py-24 px-8 overflow-hidden">
