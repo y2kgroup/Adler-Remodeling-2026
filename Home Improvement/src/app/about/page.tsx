@@ -181,51 +181,51 @@ export default function About() {
             {/* Subtle background glow for the card */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4"></div>
             
-            <h3 className="text-3xl font-headline font-extrabold mb-8 text-center text-primary">Industry Recognition</h3>
+            <h3 className="text-3xl font-headline font-extrabold mb-8 text-center text-primary">Our Core Values</h3>
             
             <div className="space-y-4 relative z-10 flex flex-col">
               
               {/* Badge 1 */}
               <div className="flex items-center gap-5 p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/20 shadow-sm hover:border-primary/30 transition-all">
                 <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary">
-                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">workspace_premium</span>
+                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">diamond</span>
                 </div>
                 <div>
-                  <h4 className="font-bold text-base text-on-surface">2023 Renovation Of The Year</h4>
-                  <p className="text-xs text-secondary mt-0.5">Awarded for architectural excellence.</p>
+                  <h4 className="font-bold text-base text-on-surface">Uncompromising Quality</h4>
+                  <p className="text-xs text-secondary mt-0.5">We source only the best materials for lasting durability.</p>
                 </div>
               </div>
 
               {/* Badge 2 */}
               <div className="flex items-center gap-5 p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/20 shadow-sm hover:border-primary/30 transition-all">
                 <div className="w-14 h-14 rounded-full bg-[#fcb900]/10 flex items-center justify-center shrink-0 text-[#fcb900]">
-                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">star</span>
+                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">handshake</span>
                 </div>
                 <div>
-                  <h4 className="font-bold text-base text-on-surface">5-Star Elite Pro Rated</h4>
-                  <p className="text-xs text-secondary mt-0.5">Based on 200+ verified customer reviews.</p>
+                  <h4 className="font-bold text-base text-on-surface">Transparent Process</h4>
+                  <p className="text-xs text-secondary mt-0.5">Clear communication from consultation to final walkthrough.</p>
                 </div>
               </div>
 
               {/* Badge 3 */}
               <div className="flex items-center gap-5 p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/20 shadow-sm hover:border-primary/30 transition-all">
-                <div className="w-14 h-14 flex items-center justify-center shrink-0">
-                  <img src="/social/1.png" alt="BBB Rating A+" className="w-10 h-10 object-contain saturate-0 grayscale opacity-80" />
+                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary">
+                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">architecture</span>
                 </div>
                 <div>
-                  <h4 className="font-bold text-base text-on-surface">A+ BBB Accredited</h4>
-                  <p className="text-xs text-secondary mt-0.5">Decades of unbroken trust and reliability.</p>
+                  <h4 className="font-bold text-base text-on-surface">Expert Craftsmanship</h4>
+                  <p className="text-xs text-secondary mt-0.5">Meticulous attention to detail on every single project.</p>
                 </div>
               </div>
               
               {/* Badge 4 */}
               <div className="flex items-center gap-5 p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/20 shadow-sm hover:border-primary/30 transition-all">
-                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary">
-                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">shield</span>
+                <div className="w-14 h-14 rounded-full bg-[#fcb900]/10 flex items-center justify-center shrink-0 text-[#fcb900]">
+                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }} aria-hidden="true">volunteer_activism</span>
                 </div>
                 <div>
-                  <h4 className="font-bold text-base text-on-surface">Fully Bonded &amp; Insured</h4>
-                  <p className="text-xs text-secondary mt-0.5">Complete protection for your property.</p>
+                  <h4 className="font-bold text-base text-on-surface">Client-Centric Approach</h4>
+                  <p className="text-xs text-secondary mt-0.5">Your satisfaction is our primary focus and driving force.</p>
                 </div>
               </div>
 

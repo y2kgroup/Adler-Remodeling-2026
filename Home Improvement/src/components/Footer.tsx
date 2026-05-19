@@ -9,7 +9,7 @@ export default function Footer() {
             <img src="/logo.svg" alt="Adler Remodeling Logo" className="h-16 md:h-24 w-auto drop-shadow-sm" />
           </Link>
           <p className="text-zinc-500 leading-relaxed">
-            Crafting high-performance living spaces through expert window and door engineering since 1998.
+            Crafting high-performance living spaces through expert window and door engineering since 2019.
           </p>
 
         </div>
