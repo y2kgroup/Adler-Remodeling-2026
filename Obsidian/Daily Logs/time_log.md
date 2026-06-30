@@ -8,4 +8,5 @@
 | 2026-06-30 | 1:52 PM | 1:53 PM | Rename unused Adler-Remodeling repo | 1 min | Completed |
 | 2026-06-30 | 1:58 PM | 2:00 PM | Scan and list Obsidian skills | 2 mins | Completed |
 | 2026-06-30 | 2:00 PM | 2:06 PM | Discuss blog system architecture | 6 mins | Completed |
-| 2026-06-30 | 2:06 PM | | Create blog integration plan | | In Progress |
+| 2026-06-30 | 2:06 PM | 3:50 PM | Create blog integration plan | 104 mins | Completed |
+| 2026-06-30 | 3:50 PM | | Research and discuss Sanity CMS integration | | In Progress |
