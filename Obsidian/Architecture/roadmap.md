@@ -1,5 +1,5 @@
 # Project Roadmap
 
 ## Active Tasks
-- [ ] Initialize workspace and project rules (In Progress)
+- [x] Initialize workspace and project rules (Completed)
 - [ ] Receive project requirements from Yosi
