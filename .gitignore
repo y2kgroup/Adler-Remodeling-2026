@@ -1,0 +1,5 @@
+.DS_Store
+*.rtf
+Y2K Group Keys.rtf
+.env
+.env.local
