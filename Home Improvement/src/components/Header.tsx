@@ -23,6 +23,7 @@ export default function Header() {
     },
     { name: "Gallery", href: "/gallery" },
     { name: "About Us", href: "/about" },
+    { name: "Blog", href: "/blog" },
   ];
 
   const [isModalOpen, setIsModalOpen] = useState(false);
