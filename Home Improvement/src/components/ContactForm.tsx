@@ -79,7 +79,6 @@ export default function ContactForm({
               <option value="" disabled>Select a service</option>
               <option value="Windows">Window Solutions</option>
               <option value="Doors">Door Replacements</option>
-              <option value="Roofing">Roofing & Repair</option>
               <option value="HVAC">HVAC & Air Conditioning</option>
               <option value="Plumbing">Plumbing Upgrades</option>
               <option value="Consultation">General Remodeling / Consultation</option>

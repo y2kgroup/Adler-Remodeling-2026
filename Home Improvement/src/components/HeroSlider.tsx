@@ -16,12 +16,6 @@ const slides = [
     description: "Eliminate drafts and maximize energy savings with premium retrofit solutions. Engineered for total thermal efficiency."
   },
   {
-    image: "https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&q=80",
-    title: "Durable Roofing",
-    subtitle: "Weather Protection",
-    description: "Protect your home with premium, weather-resistant roofing systems built for absolute durability and peace of mind."
-  },
-  {
     image: "/hvac-slider.png",
     title: "Advanced HVAC",
     subtitle: "Ultimate Comfort",

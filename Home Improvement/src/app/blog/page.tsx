@@ -39,7 +39,7 @@ export default async function BlogPage() {
               The Adler Journal <br />Home Remodeling Blog
             </h1>
             <p className="text-xl text-secondary leading-relaxed font-body">
-              Expert advice, design inspiration, and detailed guides to help you make informed decisions about windows, doors, roofing, and home efficiency.
+              Expert advice, design inspiration, and detailed guides to help you make informed decisions about windows, doors, HVAC, plumbing, and home efficiency.
             </p>
           </div>
         </div>

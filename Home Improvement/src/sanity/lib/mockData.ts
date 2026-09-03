@@ -148,51 +148,6 @@ export const MOCK_POSTS: Post[] = [
       },
     ],
   },
-  {
-    _id: "mock-3",
-    title: "5 Crucial Signs Your Home Needs a Roof Replacement",
-    slug: { current: "5-signs-your-home-needs-roof-replacement" },
-    excerpt: "Don't wait for a leak to compromise your ceiling. Look out for these five indicators of shingle decay and learn about advanced modern roofing materials.",
-    publishedAt: "2026-06-15T12:00:00Z",
-    mainImage: "https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&q=80",
-    author: {
-      name: "David Miller",
-      bio: "David is the Lead Exterior Contractor at Adler Remodeling, with 15+ years of experience protecting homes from severe weather.",
-    },
-    categories: [{ _id: "cat-3", title: "Roofing" }],
-    body: [
-      {
-        _type: "block",
-        style: "h2",
-        children: [{ _type: "span", text: "Preventing Water Damage Early" }],
-      },
-      {
-        _type: "block",
-        style: "normal",
-        children: [
-          {
-            _type: "span",
-            text: "Your roof is the first line of defense against the elements. Waiting for an active leak in your living room to address roofing damage can lead to structural rot, toxic mold, and high renovation costs.",
-          },
-        ],
-      },
-      {
-        _type: "block",
-        style: "h3",
-        children: [{ _type: "span", text: "What to Look Out For" }],
-      },
-      {
-        _type: "block",
-        style: "normal",
-        children: [
-          {
-            _type: "span",
-            text: "1. Curling or Buckling Shingles: Shingles that are curling or losing their granules indicate they have reached the end of their functional lifespan.\n2. Balding Spots: Check your gutters for asphalt granules; excessive shedding indicates advanced wear.\n3. Damaged Flashing: Flashing around chimneys and vents can crack, letting moisture directly into the attic.",
-          },
-        ],
-      },
-    ],
-  },
 ];
 
 export function getMockPostBySlug(slug: string): Post | undefined {

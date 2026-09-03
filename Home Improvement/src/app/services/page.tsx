@@ -16,13 +16,6 @@ const services = [
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuD-9Xjyvl5QQ2C-x4cZ_LmeF18MzCASATWaLAk6o03gaUQM79LdBQL81jRqotj09jeHxj8RLEpf3JfwFyaBlq8pSc3JqetUHEGVO691XsxJmJsfV9v9to2A3ZOv04a5nPZGk8kgbTs4BUlCHHwXgs4lz2LMBadfG_nt4qFez-M81PejnyNo8TIc14k3bDwpaaYlDnXuH_qcoxyQrGEPF6_nXMqkk43STRmTGcEmOWma8B9mQrFVcmziLhkd2O3LIqAV2jERQDhZfPI"
   },
   {
-    id: "roofing",
-    title: "Durable Roofing",
-    subtitle: "Weather Protection",
-    description: "Protect your home with premium, weather-resistant roofing systems built for absolute durability and peace of mind. Our certified roofing experts ensure precision installation that withstands extreme weather conditions, preventing leaks and extending the lifespan of your property.",
-    image: "https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&q=80"
-  },
-  {
     id: "hvac",
     title: "Advanced HVAC",
     subtitle: "Ultimate Comfort",

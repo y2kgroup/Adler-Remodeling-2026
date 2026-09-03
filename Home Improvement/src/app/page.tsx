@@ -14,7 +14,7 @@ export default function Home() {
 
       {/* Services Section: Symmetrical Layout */}
       <section className="py-16 lg:py-24 px-8 max-w-[90%] mx-auto">
-        <div className={`grid grid-cols-1 md:grid-cols-3 gap-4 lg:grid-cols-5 xl:gap-8`}>
+        <div className={`grid grid-cols-1 md:grid-cols-3 gap-4 lg:grid-cols-4 xl:gap-8`}>
           {/* Windows Block */}
           <div className="group cursor-pointer">
             <div className="relative h-[500px] overflow-hidden rounded-2xl shadow-sm bg-surface-container-low">
@@ -52,25 +52,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          {/* Roofing Block */}
-              <div className="group cursor-pointer">
-                <div className="relative h-[500px] overflow-hidden rounded-2xl shadow-sm bg-surface-container-low">
-                  <img
-                    alt="Premium Roofing"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&q=80"
-                  />
-                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors"></div>
-                  <div className="absolute bottom-0 left-0 right-0 p-8 pt-32 bg-gradient-to-t from-black/90 via-black/60 to-transparent text-white">
-                    <h3 className="text-4xl font-headline font-bold mb-4">Roofing</h3>
-                    <p className="text-zinc-200 mb-6 h-[120px] text-sm lg:text-base leading-relaxed">Protect your home with premium, weather-resistant roofing systems built for absolute durability and peace of mind.</p>
-                    <Link href="/roofing" className="block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container hover:text-on-primary-container transition-colors">
-                      Explore Roofing
-                    </Link>
-                  </div>
-                </div>
-              </div>
 
               {/* HVAC Block */}
               <div className="group cursor-pointer">
@@ -128,17 +109,6 @@ export default function Home() {
               <div className="px-2">
                 <h4 className="text-xl font-headline font-bold text-on-surface">Modern Multi-Slide Transformation</h4>
                 <p className="text-secondary text-sm mt-2">Replaced a damaged, outdated patio door with a stunning, energy-efficient multi-slide system, completely opening the living space to the outdoors.</p>
-              </div>
-            </div>
-
-            <div className="space-y-6">
-              <BeforeAfterSlider 
-                beforeImage="/transformations/before-roofing-v2.png" 
-                afterImage="/transformations/after-roofing-v2.png" 
-              />
-              <div className="px-2">
-                <h4 className="text-xl font-headline font-bold text-on-surface">Complete Architectural Roof Replacement</h4>
-                <p className="text-secondary text-sm mt-2">Stripped an old, failing asphalt roof and installed a premium architectural shingle system, instantly modernizing the home's exterior and ensuring decades of protection.</p>
               </div>
             </div>
             

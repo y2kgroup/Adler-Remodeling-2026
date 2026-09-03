@@ -43,7 +43,7 @@ export default function About() {
               We don't just upgrade your house—we secure and elevate your home. Our journey began with a single vision to provide homeowners with a level of transparency and technical skill that was missing in the industry.
             </p>
             <p className="text-lg text-secondary mb-10 leading-relaxed">
-              Every roofing installation, HVAC upgrade, and plumbing overhaul is approached with the same architectural rigor. We treat your home as a sanctuary, ensuring minimal disruption, maximum quality, and lasting comfort.
+              Every window installation, HVAC upgrade, and plumbing overhaul is approached with the same architectural rigor. We treat your home as a sanctuary, ensuring minimal disruption, maximum quality, and lasting comfort.
             </p>
             <div className="grid grid-cols-2 gap-8">
               <div>
@@ -172,7 +172,7 @@ export default function About() {
                 </div>
                 <div>
                   <h4 className="text-xl font-headline font-bold text-white mb-1">Maximum Security</h4>
-                  <p className="text-white/70 leading-relaxed text-sm">Protect what matters most with impenetrable roofing systems, secure entryways, and flawlessly engineered plumbing.</p>
+                  <p className="text-white/70 leading-relaxed text-sm">Protect what matters most with secure entryways, weather-tight windows, and flawlessly engineered plumbing.</p>
                 </div>
               </div>
             </div>
